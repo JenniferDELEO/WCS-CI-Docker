@@ -28,5 +28,5 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: jenniferdl/quete1902:latest
-          context: "{{defaultContext}}:server"
+          context: "{{defaultContext}}:client"
+          tags: username/quete1902:latest
